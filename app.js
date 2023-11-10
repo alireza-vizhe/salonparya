@@ -4,6 +4,8 @@ const dotEnv = require("dotenv");
 const multer = require("multer");
 const sharp = require("sharp");
 
+const mongoose = require("mongoose")
+
 const Post = require("./module/PostModel");
 const connectDB = require("./config/db");
 const { setHeaders } = require("./middlewares/header");
